@@ -1,0 +1,220 @@
+html{
+    height: 100%;
+}
+/* -------------------------------------------------BODY------------------------------------------------------------------------------ */
+body{
+    background-image: url(/IMAGES/spacex-NC37HQXdpZ0-unsplash.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-color: black;
+}
+/* -------------------------------------------------CONTAINER------------------------------------------------------------------------------ */
+
+.container{
+    width: 1024px;
+    margin: auto;
+}
+/* -------------------------------------------------HEADER------------------------------------------------------------------------------ */
+header{
+    /* background-color: teal; */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.h_logo{
+    flex:1;
+    text-align: center;
+}
+.h_title{
+    flex: 4;
+    text-align: center;
+    color: white;
+}
+/* -------------------------------------------------NAV------------------------------------------------------------------------------ */
+nav{
+    /* background-color: rgba(0, 128, 128, 0.85); */
+    text-align: center;
+    min-height: 30px;
+    padding: 20px;
+    align-items: center;
+}
+.n_items{
+    text-decoration: none;
+    /* color: white; */
+    border: solid;
+    border-color: white;
+    padding: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+/* -------------------------------------------------MAIN------------------------------------------------------------------------------ */
+main{
+    /* background-color: rgba(0, 128, 128, 0.694); */
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.m_image{
+    flex: 2;
+}
+.m_text{
+    flex: 3;
+    height: 275px;
+    /* background-color: violet; */
+}
+.m_text h1{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-decoration: underline;
+    line-height: 20px;
+}
+.m_text p{
+    text-align: center;
+    padding: 30px;
+    color: white;
+    line-height: 30px;
+}
+/* -------------------------------------------------Maps------------------------------------------------------------------------------ */
+.maps{
+    /* background-color: yellow; */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+.map_f{
+    flex: 1;
+}
+
+.adds{
+    flex: 1;
+}
+.adds h1{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    text-decoration: underline;
+    line-height: 20px;
+}
+.adds p{
+    text-align: center;
+    padding: 30px;
+    color: white;
+    line-height: 30px;
+}
+/* -------------------------------------------------MAPS------------------------------------------------------------------------------ */
+.galary{
+    background-color: rgba(0, 0, 0, 0.33);
+    /* min-height: 900px; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.g_heading{
+    /* background-color: indigo; */
+    text-align: center;
+    padding: 40px;
+}
+.g_heading h1{
+    padding: 10px;
+    text-decoration: underline;
+}
+.g_pics{
+    align-items: center;
+}
+.g_pics1{
+    /* background-color: goldenrod; */
+    display: flex;
+    align-items: center;
+}
+.g_pics1_1{
+    flex: 1;
+    /* background-color: greenyellow; */
+    width: 30%;
+    /* padding: 20px; */
+}
+.g_pics1_2{
+    flex: 1;
+    /* background-color: rgb(122, 179, 37); */
+    width: 30%;
+    /* padding: 20px; */
+}
+.g_pics1_3{
+    flex: 1;
+    /* background-color: rgb(167, 191, 132); */
+    width: 30%;
+    /* padding: 20px; */
+}
+
+
+.g_pics2{
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+}
+.g_pics2_1{
+    flex: 1;
+    /* background-color: rgb(54, 69, 32); */
+    width: 30%;
+    /* padding: 20px; */
+}
+.g_pics2_2{
+    flex: 1;
+    /* background-color: rgb(103, 108, 96); */
+    width: 30%;
+    /* padding: 20px; */
+}
+.g_pics2_3{
+    flex: 1;
+    /* background-color: rgb(0, 0, 0); */
+    width: 30%;
+    /* padding: 20px; */
+}
+
+/* -------------------------------------------------FOOTER------------------------------------------------------------------------------ */
+footer{
+    background-color: rgba(255, 255, 255, 0.074);
+    height: 200px;
+    display: flex;
+}
+.cc{
+    flex:1;
+    /* background-color: blue; */
+}
+.cc p{
+    margin-top: 140px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+    color: white;
+}
+.comments{
+    flex:1 ;
+}
+.comments h1{
+    text-align: center;
+    padding: 20px;
+}
+.comments textarea{
+    margin-left: 110px;
+    margin-top: 20px;
+}
+/* -------------------------------------------------Tags------------------------------------------------------------------------------ */
+h1{
+    font-size: 1.4rem;
+    font-family: 'Bree Serif', serif;
+    color: white;
+}
+a{
+    font-family: 'Rancho', cursive;
+    font-size: 1.2rem;
+}
+p{
+    font-family: 'Kelly Slab', cursive;
+    font-size: 1rem;
+}
